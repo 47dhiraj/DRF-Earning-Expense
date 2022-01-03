@@ -1,0 +1,9 @@
+one simple way to debug in vs code & also in other editor like pycharm
+
+jun line or statment samma code run garera debug garni ho tes line ko tyakka tala yo talako code lai lagera paste gardine
+
+import pdb
+pdb.set_trace()
+
+
+

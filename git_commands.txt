@@ -1,0 +1,59 @@
+# Some of daily used git commands
+
+1st ) git pull or git pull master
+2nd ) git status
+3rd ) git branch
+4th ) git checkout <master or branch_name>
+5th) git checkout -b <branch_name>
+6th) git add .
+7th ) git commit -m "understandable commit message"
+8th ) git push origin <branchname>
+9th ) git push origin master            or      git push
+
+
+# after pushing.. go to gitlab website & click on 'create merge request' & click on 'merge' button
+# after merging again go to terminal
+# git checkout master
+# git pull                              ==> for getting the latest updated code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Push an existing folder
+cd existing_folder
+git init
+git remote add origin https://gitlab.com/dhirajkafle553/incomeexpensesapi.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+
+
+Create a new repository
+git clone https://gitlab.com/dhirajkafle553/incomeexpensesapi.git
+cd scheduling
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin main

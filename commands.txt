@@ -1,0 +1,27 @@
+pip install django==3.2.3
+pip install mysqlclient==2.0.3
+pip install djangorestframework==3.12.4
+pip install djangorestframework-simplejwt
+pip install django-environ
+pip install -U drf-yasg
+python -m pip install py3-validate-email
+python manage.py startapp authentication
+python manage.py startapp income
+python manage.py startapp expense
+pip install Faker
+pip install django-cors-headers
+python manage.py startapp userstats
+python manage.py startapp social_auth
+pip install google-api-python-client
+pip install facebook-sdk
+
+
+
+
+# Commands for running the test
+python manage.py test
+
+ALTERNATIVE commands for running testing:
+=> suru ma tw coverage lai install garna parcha.. just for one time => pip install coverage
+=> coverage run --omit = */venv/* manage.py test
+
